@@ -1,0 +1,86 @@
+body {
+    background-image: url("https://i.dailymail.co.uk/i/pix/2015/10/02/05/2CFF717600000578-3257171-image-a-111_1443760578050.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+header {
+    background-color: wheat;
+}
+nav {
+    display: flex;
+    background: goldenrod;
+    width: 100%;
+    justify-content: center;
+    padding: .2em;
+    box-sizing: border-box;
+}
+
+nav a {
+    margin: 2em 1em 0px 1em;
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.image-hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: wheat;
+}
+
+.flex-item {
+    background-color: goldenrod;
+    text-align: center;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.section-img {
+    margin: o auto;
+    width: 100%;
+}
+
+main {
+    flex:2;
+    margin: 1em;
+}
+
+aside {
+    flex: 2;
+    margin: 1em;
+}
+
+footer {
+    background-color: burlywood;
+    color: black;
+    text-align: bottom;
+}
+
+footer a {
+    color: black;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper {
+    box-shadow: 2px 2px 4px black;
+    margin: 50px;
+    background-color: wheat;
+}
+

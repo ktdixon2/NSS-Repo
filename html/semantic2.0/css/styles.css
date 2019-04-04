@@ -1,0 +1,36 @@
+body {
+    justify-content: flex-end;
+    padding: 10px 100px 10px 100px;
+    background-color: whitesmoke;
+}
+
+div {
+    width: 783px;
+    margin: auto;
+    border: 3px solid blue;
+}
+
+li {
+    font-style: italic
+}
+.body_committees {
+    margin: 10px;
+}
+.body_committees * li {
+    color: gray;
+}
+
+.article_main {
+    padding: 10px;
+
+}
+
+.body_legislation {
+    padding: 10px;
+
+}
+
+footer {
+    color: lightslategray;
+    padding: 10px;
+}

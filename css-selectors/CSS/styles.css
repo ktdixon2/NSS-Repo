@@ -1,0 +1,55 @@
+body {
+    color: gray;
+}
+
+.disabled {
+    color: gray;
+}
+
+nav * li {
+    display: inline;
+    padding: 5px;
+}
+
+header ul {
+    border: 1px solid goldenrod;
+}
+
+a {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent > div {
+    color: red;
+}
+
+.parent * h4 {
+    color:gray;
+    background-color: red;
+}
+
+h4 + div {
+    color: blue;
+}
+
+.parent * h4:last-child {
+    background-color: blue;
+}
+
+#granborder {
+    border: 1px solid red; 
+    border-radius: 20px;
+}
+
+.promo {
+    color: gold;
+    font: bold;
+}
+
+input {
+    height: 25px;
+}

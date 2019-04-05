@@ -1,5 +1,6 @@
 body {
     background-image: url("https://i.dailymail.co.uk/i/pix/2015/10/02/05/2CFF717600000578-3257171-image-a-111_1443760578050.jpg");
+    background-image: repeat none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
